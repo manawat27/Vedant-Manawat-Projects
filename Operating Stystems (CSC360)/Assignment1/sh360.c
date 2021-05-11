@@ -22,10 +22,6 @@
 #define MAX_DIRECTORIES 10
 #define MAX_ARGUMENT_LEN 12
 
-char command_head[MAX_INPUT_LEN];
-
-int check_if_exists_and_executable(char command[MAX_PATH_LEN]);
-
 //Source of code: This code was implemented by my in the Spring semester of 2020 for assignment 1 (kwoc1.c) of the course SENG 265
 void  parse_binary_file(char file_input[MAX_DIRECTORIES][MAX_PATH_LEN], int *line_counter){
     FILE *fptr;
@@ -57,7 +53,6 @@ void tokenize_input_file(char file_input[MAX_DIRECTORIES][MAX_PATH_LEN],char par
         buff_counter = buff_counter + 1;
     }
 }
-
 
 //The credit for this code goes to Dr. Zastre, this code was inspired by the code provided in appendix_e.c
 void tokenize_user_input(char user_input[MAX_INPUT_LEN], char *parsed_user_input[MAX_INPUT_LEN],int *num_tokens){
@@ -108,39 +103,6 @@ void formulate_pipe_args(char *parsed_user_input[MAX_ARGUMENTS],char *arguments_
     for (int i=0; i<*argument_head_counter; i++){
         printf("%s",arguments_head[i]);
     }
-}
-
-/*The purpose of this function is to formulate the path to for each command and then make a function call check wether the path exists and is executable or not
-    
-    The way this fucntion works is that it for every line in the .sh360rc file (except the line for the prompt) it will append to it a "/" and then the command that the user has typed and wishes to run. Once the path is created, it will then be passed to check_if_exists_and_executable to verify if this command is runnable.
- 
-    This function returns a value of either 0 or 1; 0 indicating the path is not executable or does not exist or both, 1 indicating that it exists and is runnable
-*/
-int formulate_commands(char parsed_file_input[MAX_PATH_LEN],char user_input[MAX_INPUT_LEN],char *parsed_user_input[MAX_ARGUMENTS], char command[MAX_PATH_LEN],int *line_counter,int *execute){
-
-    char buffer_path[MAX_PATH_LEN];
-    char buffer_user_input[MAX_INPUT_LEN];
-    char *t;
-
-    if (strstr(user_input,"OR")){
-        strncpy(buffer_path, parsed_file_input,MAX_PATH_LEN);
-        strncpy(buffer_user_input,parsed_user_input[1],MAX_INPUT_LEN);
-        strncat(strncat(buffer_path,"/",1),buffer_user_input,MAX_PATH_LEN);
-        strncpy(command, buffer_path, MAX_PATH_LEN);
-        
-        *execute = check_if_exists_and_executable(command);
-        return *execute;
-    }else{
-        strncpy(buffer_path, parsed_file_input,MAX_PATH_LEN);
-        strncpy(buffer_user_input,user_input,MAX_INPUT_LEN);
-        t = strtok(buffer_user_input, " ");
-        strncat(strncat(buffer_path,"/",1),t,MAX_PATH_LEN);
-        strncpy(command, buffer_path, MAX_PATH_LEN);
-
-        *execute = check_if_exists_and_executable(command);
-        return *execute;
-    }
-    
 }
 
 /*The purpose of this function is to formulate the path to for each command if it command has a pipe in it
@@ -222,6 +184,32 @@ int check_if_exists_and_executable(char command[MAX_PATH_LEN]){
     }
 }
 
+int formulate_commands(char parsed_file_input[MAX_PATH_LEN],char user_input[MAX_INPUT_LEN],char *parsed_user_input[MAX_ARGUMENTS], char command[MAX_PATH_LEN],int *line_counter,int *execute){
+
+    char buffer_path[MAX_PATH_LEN];
+    char buffer_user_input[MAX_INPUT_LEN];
+    char *t;
+
+    if (strstr(user_input,"OR")){
+        strncpy(buffer_path, parsed_file_input,MAX_PATH_LEN);
+        strncpy(buffer_user_input,parsed_user_input[1],MAX_INPUT_LEN);
+        strncat(strncat(buffer_path,"/",1),buffer_user_input,MAX_PATH_LEN);
+        strncpy(command, buffer_path, MAX_PATH_LEN);
+        
+        *execute = check_if_exists_and_executable(command);
+        return *execute;
+    }else{
+        strncpy(buffer_path, parsed_file_input,MAX_PATH_LEN);
+        strncpy(buffer_user_input,user_input,MAX_INPUT_LEN);
+        t = strtok(buffer_user_input, " ");
+        strncat(strncat(buffer_path,"/",1),t,MAX_PATH_LEN);
+        strncpy(command, buffer_path, MAX_PATH_LEN);
+
+        *execute = check_if_exists_and_executable(command);
+        return *execute;
+    }
+    
+}
 
 /*
  The credit for this code goes to Dr. Zastre, this code was taken from appendix_d.c
@@ -257,6 +245,8 @@ void execute_pipe(char command_head[MAX_INPUT_LEN],char command_tail[MAX_INPUT_L
     waitpid(pid_tail, &status, 0);
 }
 
+
+
 int main(int argc, char *argv[]){
     
     /* ####################### DECLARING VARIABLES ####################### */
@@ -268,14 +258,15 @@ int main(int argc, char *argv[]){
     char *arguments[MAX_ARGUMENT_LEN],*arguments_head[MAX_ARGUMENT_LEN],*arguments_body[MAX_ARGUMENT_LEN],*arguments_tail[MAX_ARGUMENT_LEN];
     char *envp[] = { 0 };
     char filename[30];
-    char head[MAX_INPUT_LEN]; command_head[MAX_INPUT_LEN];
+
+    char head[MAX_INPUT_LEN], command_head[MAX_INPUT_LEN];
     char body[MAX_INPUT_LEN], command_body[MAX_INPUT_LEN];
     char tail[MAX_INPUT_LEN], command_tail[MAX_INPUT_LEN];
     int num_tokens,pid,status,execute,fd,execute_head,execute_body,execute_tail;
     int line_counter = 0;
     int argument_counter = 0;
     int argument_head_counter = 0;
-    
+
     
     //Function calls to parse the .sh360rc file and tokenize it
     parse_binary_file(file_input, &line_counter);
