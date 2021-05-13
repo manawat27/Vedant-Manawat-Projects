@@ -146,7 +146,6 @@ void formulate_pipe_commands(char parsed_file_input[MAX_PATH_LEN], char command_
     strncat(buffer_tail_path, "/",1);
     strncat(buffer_tail_path,tail,strlen(tail));
     strncpy(command_tail,buffer_tail_path,MAX_PATH_LEN);
-    
 }
 
 /*
@@ -216,7 +215,7 @@ int formulate_commands(char parsed_file_input[MAX_PATH_LEN],char user_input[MAX_
  This functions purpose is to set up the arguments and other variables needed to able to pipe two commands and then provide them to execve to run the commands as a pipe
  */
 void execute_pipe(char command_head[MAX_INPUT_LEN],char command_tail[MAX_INPUT_LEN]){
-    
+
     char *cmd_head[] = { command_head, 0, 0 };
     char *cmd_tail[] = { command_tail,0, 0 };
     char *envp[] = { 0 };
@@ -290,7 +289,7 @@ int main(int argc, char *argv[]){
         tokenize_user_input(user_input, parsed_user_input, &num_tokens);
         formulate_args(parsed_user_input,arguments,&argument_counter,&num_tokens);
         
-        if ((strcmp(user_input, "exit") == 0) && (num_tokens == 1)) {
+        if ((strcmp(user_input, "exit") == 0)) {
             exit(1);
         }
         
@@ -302,7 +301,7 @@ int main(int argc, char *argv[]){
         /* This is where the set up is done if the user wishes to pipe commands
             From here appropriate function calls are made to then actually run the execve for the pipe
          */
-        if (strstr(user_input,"PP")){
+        if (strstr(user_input,"Pipe")){
             formulate_pipe_args(parsed_user_input,arguments_head,arguments_body,arguments_tail,&argument_head_counter,&num_tokens);
             if (num_tokens == 4){
                 for (int i=1; i<line_counter; i++){
@@ -311,7 +310,32 @@ int main(int argc, char *argv[]){
                     char temp_tail_cmd[MAX_INPUT_LEN];
                     char temp_body_cmd[MAX_INPUT_LEN];
                     formulate_pipe_commands(parsed_file_input[i],temp_head_cmd,temp_body_cmd,temp_tail_cmd,head,body,tail);
-                 
+
+                    if (check_if_exists_and_executable(temp_head_cmd) == 1){
+                        execute_head = 1;
+                        strncpy(command_head,temp_head_cmd,MAX_INPUT_LEN);
+                    }
+
+                    if (check_if_exists_and_executable(temp_tail_cmd) == 1){
+                        execute_tail = 1;
+                        strncpy(command_tail,temp_tail_cmd,MAX_INPUT_LEN);
+                    }
+                }
+                execute_pipe(command_head,command_tail);
+            }else if (num_tokens>4){
+                for (int i=1; i<line_counter; i++){
+                    get_commands(parsed_user_input,&num_tokens,head,body,tail);
+                    char temp_head_cmd[MAX_INPUT_LEN];
+                    char temp_tail_cmd[MAX_INPUT_LEN];
+                    char temp_body_cmd[MAX_INPUT_LEN];
+                    formulate_pipe_commands(parsed_file_input[i],temp_head_cmd,temp_body_cmd,temp_tail_cmd,head,body,tail);
+
+                    // printf("%s",temp_head_cmd);
+                    // printf("\n");
+                    // printf("%s",temp_body_cmd);
+                    // printf("\n");
+                    // printf("%s",temp_tail_cmd);
+                    // printf("\n");
 
                     if (check_if_exists_and_executable(temp_head_cmd) == 1){
                         execute_head = 1;
