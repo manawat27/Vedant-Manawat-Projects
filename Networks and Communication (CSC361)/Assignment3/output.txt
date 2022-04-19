@@ -1,0 +1,635 @@
+--------------------------------------------------------------------------------
+Group 1 trace 1 (Linux)
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.100.17
+The IP address of the ultimate destionation node: 8.8.8.8
+The IP addresses of the intermediate nodes: 
+	 router 1: 142.104.68.167
+	 router 2: 142.104.68.1
+	 router 3: 192.168.9.5
+	 router 4: 192.168.10.1
+	 router 5: 192.168.8.6
+	 router 6: 142.104.252.37
+	 router 7: 142.104.252.246
+	 router 8: 207.23.244.242
+	 router 9: 206.12.3.17
+	 router 10: 199.212.24.64
+	 router 11: 206.81.80.17
+	 router 12: 74.125.37.91
+	 router 13: 72.14.237.123
+	 router 14: 209.85.250.121
+	 router 15: 209.85.249.155
+	 router 16: 209.85.249.153
+
+The values in protocol field of IP headers: 
+	1: ICMP
+	17: UDP
+
+The average RTT between 192.168.100.17 and 142.104.68.167 is: 11.366667 ms, the s.d. is: 0.206988 ms
+The average RTT between 192.168.100.17 and 142.104.68.1 is: 16.850667 ms, the s.d. is: 0.200051 ms
+The average RTT between 192.168.100.17 and 192.168.9.5 is: 16.008667 ms, the s.d. is: 0.22545 ms
+The average RTT between 192.168.100.17 and 192.168.10.1 is: 17.562 ms, the s.d. is: 0.206167 ms
+The average RTT between 192.168.100.17 and 192.168.8.6 is: 18.361 ms, the s.d. is: 0.230465 ms
+The average RTT between 192.168.100.17 and 142.104.252.37 is: 11.861333 ms, the s.d. is: 6.499943 ms
+The average RTT between 192.168.100.17 and 142.104.252.246 is: 13.507333 ms, the s.d. is: 0.329015 ms
+The average RTT between 192.168.100.17 and 207.23.244.242 is: 14.095667 ms, the s.d. is: 0.318757 ms
+The average RTT between 192.168.100.17 and 206.12.3.17 is: 18.234333 ms, the s.d. is: 0.235075 ms
+The average RTT between 192.168.100.17 and 199.212.24.64 is: 16.911667 ms, the s.d. is: 0.213561 ms
+The average RTT between 192.168.100.17 and 206.81.80.17 is: 19.429 ms, the s.d. is: 0.232151 ms
+The average RTT between 192.168.100.17 and 74.125.37.91 is: 11.77 ms, the s.d. is: 2.409 ms
+The average RTT between 192.168.100.17 and 72.14.237.123 is: 17.624 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.250.121 is: 18.468 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.249.155 is: 19.821 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.249.153 is: 20.572 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 8.8.8.8 is: 19.979923 ms, the s.d. is: 3.501104 ms
+--------------------------------------------------------------------------------
+Group 1 trace 2 (Linux)
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.100.17
+The IP address of the ultimate destionation node: 8.8.8.8
+The IP addresses of the intermediate nodes: 
+	 router 1: 142.104.68.167
+	 router 2: 142.104.68.1
+	 router 3: 192.168.9.5
+	 router 4: 192.168.10.1
+	 router 5: 192.168.8.6
+	 router 6: 142.104.252.37
+	 router 7: 142.104.252.246
+	 router 8: 207.23.244.242
+	 router 9: 206.12.3.17
+	 router 10: 199.212.24.64
+	 router 11: 206.81.80.17
+	 router 12: 72.14.237.123
+	 router 13: 74.125.37.91
+	 router 14: 209.85.249.109
+	 router 15: 209.85.250.57
+	 router 16: 209.85.246.219
+
+The values in protocol field of IP headers: 
+	1: ICMP
+	17: UDP
+
+The average RTT between 192.168.100.17 and 142.104.68.167 is: 11.385 ms, the s.d. is: 0.222748 ms
+The average RTT between 192.168.100.17 and 142.104.68.1 is: 15.933 ms, the s.d. is: 0.441495 ms
+The average RTT between 192.168.100.17 and 192.168.9.5 is: 15.450333 ms, the s.d. is: 0.335043 ms
+The average RTT between 192.168.100.17 and 192.168.10.1 is: 17.711667 ms, the s.d. is: 0.519455 ms
+The average RTT between 192.168.100.17 and 192.168.8.6 is: 16.878 ms, the s.d. is: 0.339069 ms
+The average RTT between 192.168.100.17 and 142.104.252.37 is: 11.641 ms, the s.d. is: 6.285938 ms
+The average RTT between 192.168.100.17 and 142.104.252.246 is: 13.429333 ms, the s.d. is: 0.227664 ms
+The average RTT between 192.168.100.17 and 207.23.244.242 is: 50.242 ms, the s.d. is: 25.682434 ms
+The average RTT between 192.168.100.17 and 206.12.3.17 is: 16.794667 ms, the s.d. is: 0.235916 ms
+The average RTT between 192.168.100.17 and 199.212.24.64 is: 17.578 ms, the s.d. is: 0.204534 ms
+The average RTT between 192.168.100.17 and 206.81.80.17 is: 19.223333 ms, the s.d. is: 0.225794 ms
+The average RTT between 192.168.100.17 and 72.14.237.123 is: 14.8305 ms, the s.d. is: 2.3305 ms
+The average RTT between 192.168.100.17 and 74.125.37.91 is: 16.414 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.249.109 is: 17.418 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.250.57 is: 17.936 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.246.219 is: 18.702 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 8.8.8.8 is: 18.13325 ms, the s.d. is: 2.865517 ms
+--------------------------------------------------------------------------------
+Group 1 trace 3 (Linux)
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.100.17
+The IP address of the ultimate destionation node: 8.8.8.8
+The IP addresses of the intermediate nodes: 
+	 router 1: 142.104.68.167
+	 router 2: 142.104.68.1
+	 router 3: 192.168.9.5
+	 router 4: 192.168.10.1
+	 router 5: 192.168.8.6
+	 router 6: 142.104.252.37
+	 router 7: 142.104.252.246
+	 router 8: 207.23.244.242
+	 router 9: 206.12.3.17
+	 router 10: 199.212.24.64
+	 router 11: 206.81.80.17
+	 router 12: 74.125.37.91
+	 router 13: 72.14.237.123
+	 router 14: 209.85.245.65
+	 router 15: 209.85.249.155
+	 router 16: 209.85.247.63
+
+The values in protocol field of IP headers: 
+	1: ICMP
+	17: UDP
+
+The average RTT between 192.168.100.17 and 142.104.68.167 is: 11.686 ms, the s.d. is: 0.217207 ms
+The average RTT between 192.168.100.17 and 142.104.68.1 is: 15.732333 ms, the s.d. is: 0.321704 ms
+The average RTT between 192.168.100.17 and 192.168.9.5 is: 16.314333 ms, the s.d. is: 0.315727 ms
+The average RTT between 192.168.100.17 and 192.168.10.1 is: 17.158 ms, the s.d. is: 0.206993 ms
+The average RTT between 192.168.100.17 and 192.168.8.6 is: 17.914667 ms, the s.d. is: 0.207837 ms
+The average RTT between 192.168.100.17 and 142.104.252.37 is: 12.113333 ms, the s.d. is: 6.296007 ms
+The average RTT between 192.168.100.17 and 142.104.252.246 is: 14.406 ms, the s.d. is: 0.221343 ms
+The average RTT between 192.168.100.17 and 207.23.244.242 is: 15.182333 ms, the s.d. is: 0.208209 ms
+The average RTT between 192.168.100.17 and 206.12.3.17 is: 18.085667 ms, the s.d. is: 0.231393 ms
+The average RTT between 192.168.100.17 and 199.212.24.64 is: 18.865 ms, the s.d. is: 0.204124 ms
+The average RTT between 192.168.100.17 and 206.81.80.17 is: 20.102667 ms, the s.d. is: 0.218135 ms
+The average RTT between 192.168.100.17 and 74.125.37.91 is: 15.971 ms, the s.d. is: 2.067 ms
+The average RTT between 192.168.100.17 and 72.14.237.123 is: 9.568 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.245.65 is: 19.552 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.249.155 is: 19.802 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.247.63 is: 23.165 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 8.8.8.8 is: 19.8025 ms, the s.d. is: 3.394474 ms
+--------------------------------------------------------------------------------
+Group 1 trace 4 (Linux)
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.100.17
+The IP address of the ultimate destionation node: 8.8.8.8
+The IP addresses of the intermediate nodes: 
+	 router 1: 142.104.68.167
+	 router 2: 142.104.68.1
+	 router 3: 192.168.9.5
+	 router 4: 192.168.10.1
+	 router 5: 192.168.8.6
+	 router 6: 142.104.252.37
+	 router 7: 142.104.252.246
+	 router 8: 207.23.244.242
+	 router 9: 206.12.3.17
+	 router 10: 199.212.24.64
+	 router 11: 206.81.80.17
+	 router 12: 74.125.37.91
+	 router 13: 72.14.237.123
+	 router 14: 209.85.246.219
+	 router 15: 209.85.250.123
+	 router 16: 209.85.245.65
+
+The values in protocol field of IP headers: 
+	1: ICMP
+	17: UDP
+
+The average RTT between 192.168.100.17 and 142.104.68.167 is: 11.214 ms, the s.d. is: 0.221054 ms
+The average RTT between 192.168.100.17 and 142.104.68.1 is: 15.712667 ms, the s.d. is: 0.570675 ms
+The average RTT between 192.168.100.17 and 192.168.9.5 is: 15.420667 ms, the s.d. is: 0.209438 ms
+The average RTT between 192.168.100.17 and 192.168.10.1 is: 16.688667 ms, the s.d. is: 0.204125 ms
+The average RTT between 192.168.100.17 and 192.168.8.6 is: 17.442667 ms, the s.d. is: 0.204533 ms
+The average RTT between 192.168.100.17 and 142.104.252.37 is: 11.519333 ms, the s.d. is: 6.200681 ms
+The average RTT between 192.168.100.17 and 142.104.252.246 is: 13.587667 ms, the s.d. is: 0.45439 ms
+The average RTT between 192.168.100.17 and 207.23.244.242 is: 14.006333 ms, the s.d. is: 0.323037 ms
+The average RTT between 192.168.100.17 and 206.12.3.17 is: 16.930667 ms, the s.d. is: 0.214772 ms
+The average RTT between 192.168.100.17 and 199.212.24.64 is: 18.181 ms, the s.d. is: 0.250728 ms
+The average RTT between 192.168.100.17 and 206.81.80.17 is: 19.434 ms, the s.d. is: 0.240753 ms
+The average RTT between 192.168.100.17 and 74.125.37.91 is: 14.242 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 72.14.237.123 is: 13.638 ms, the s.d. is: 4.067 ms
+The average RTT between 192.168.100.17 and 209.85.246.219 is: 19.006 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.250.123 is: 19.514 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.245.65 is: 20.806 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 8.8.8.8 is: 19.648667 ms, the s.d. is: 3.319851 ms
+--------------------------------------------------------------------------------
+Group 1 trace 5 (Linux)
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.100.17
+The IP address of the ultimate destionation node: 8.8.8.8
+The IP addresses of the intermediate nodes: 
+	 router 1: 142.104.68.167
+	 router 2: 142.104.68.1
+	 router 3: 192.168.9.5
+	 router 4: 192.168.10.1
+	 router 5: 192.168.8.6
+	 router 6: 142.104.252.37
+	 router 7: 142.104.252.246
+	 router 8: 207.23.244.242
+	 router 9: 206.12.3.17
+	 router 10: 199.212.24.64
+	 router 11: 206.81.80.17
+	 router 12: 72.14.237.123
+	 router 13: 209.85.250.59
+	 router 14: 209.85.249.153
+	 router 15: 209.85.247.61
+
+The values in protocol field of IP headers: 
+	1: ICMP
+	17: UDP
+
+The average RTT between 192.168.100.17 and 142.104.68.167 is: 11.298333 ms, the s.d. is: 0.205792 ms
+The average RTT between 192.168.100.17 and 142.104.68.1 is: 16.691333 ms, the s.d. is: 0.237235 ms
+The average RTT between 192.168.100.17 and 192.168.9.5 is: 17.484333 ms, the s.d. is: 0.21206 ms
+The average RTT between 192.168.100.17 and 192.168.10.1 is: 18.246667 ms, the s.d. is: 0.208207 ms
+The average RTT between 192.168.100.17 and 192.168.8.6 is: 19.010333 ms, the s.d. is: 0.209024 ms
+The average RTT between 192.168.100.17 and 142.104.252.37 is: 11.917667 ms, the s.d. is: 6.635199 ms
+The average RTT between 192.168.100.17 and 142.104.252.246 is: 13.539 ms, the s.d. is: 0.32772 ms
+The average RTT between 192.168.100.17 and 207.23.244.242 is: 18.522333 ms, the s.d. is: 6.486595 ms
+The average RTT between 192.168.100.17 and 206.12.3.17 is: 16.708333 ms, the s.d. is: 0.216423 ms
+The average RTT between 192.168.100.17 and 199.212.24.64 is: 17.964667 ms, the s.d. is: 0.242356 ms
+The average RTT between 192.168.100.17 and 206.81.80.17 is: 19.327333 ms, the s.d. is: 0.406101 ms
+The average RTT between 192.168.100.17 and 72.14.237.123 is: 13.892 ms, the s.d. is: 3.573473 ms
+The average RTT between 192.168.100.17 and 209.85.250.59 is: 19.365 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.249.153 is: 19.648 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 209.85.247.61 is: 19.891 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.100.17 and 8.8.8.8 is: 20.881385 ms, the s.d. is: 2.605767 ms
+--------------------------------------------------------------------------------
+Group 2 trace 1 (Windows)
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.0.16
+The IP address of the ultimate destionation node: 8.8.8.8
+The IP addresses of the intermediate nodes: 
+	 router 1: 192.168.0.1
+	 router 2: 24.108.0.1
+	 router 3: 64.59.161.197
+	 router 4: 66.163.72.26
+	 router 5: 66.163.68.18
+	 router 6: 72.14.221.102
+	 router 7: 108.170.245.113
+	 router 8: 209.85.249.249
+
+The values in protocol field of IP headers: 
+	1: ICMP
+
+The average RTT between 192.168.0.16 and 192.168.0.1 is: 3.329667 ms, the s.d. is: 1.643727 ms
+The average RTT between 192.168.0.16 and 24.108.0.1 is: 15.811667 ms, the s.d. is: 2.282815 ms
+The average RTT between 192.168.0.16 and 64.59.161.197 is: 18.869333 ms, the s.d. is: 2.811982 ms
+The average RTT between 192.168.0.16 and 66.163.72.26 is: 22.843 ms, the s.d. is: 1.616413 ms
+The average RTT between 192.168.0.16 and 66.163.68.18 is: 26.502 ms, the s.d. is: 3.988886 ms
+The average RTT between 192.168.0.16 and 72.14.221.102 is: 24.263667 ms, the s.d. is: 2.485784 ms
+The average RTT between 192.168.0.16 and 108.170.245.113 is: 18.408 ms, the s.d. is: 0.498201 ms
+The average RTT between 192.168.0.16 and 209.85.249.249 is: 22.970667 ms, the s.d. is: 4.915272 ms
+The average RTT between 192.168.0.16 and 8.8.8.8 is: 18.099667 ms, the s.d. is: 0.762928 ms
+--------------------------------------------------------------------------------
+Group 2 trace 2 (Windows)
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.0.16
+The IP address of the ultimate destionation node: 8.8.8.8
+The IP addresses of the intermediate nodes: 
+	 router 1: 192.168.0.1
+	 router 2: 24.108.0.1
+	 router 3: 64.59.161.197
+	 router 4: 66.163.72.26
+	 router 5: 66.163.68.18
+	 router 6: 72.14.221.102
+	 router 7: 108.170.245.113
+	 router 8: 209.85.249.249
+
+The values in protocol field of IP headers: 
+	1: ICMP
+
+The average RTT between 192.168.0.16 and 192.168.0.1 is: 2.710667 ms, the s.d. is: 0.961286 ms
+The average RTT between 192.168.0.16 and 24.108.0.1 is: 17.118333 ms, the s.d. is: 4.664059 ms
+The average RTT between 192.168.0.16 and 64.59.161.197 is: 20.096667 ms, the s.d. is: 3.97057 ms
+The average RTT between 192.168.0.16 and 66.163.72.26 is: 19.42 ms, the s.d. is: 1.419443 ms
+The average RTT between 192.168.0.16 and 66.163.68.18 is: 21.555333 ms, the s.d. is: 3.381251 ms
+The average RTT between 192.168.0.16 and 72.14.221.102 is: 19.982333 ms, the s.d. is: 1.657328 ms
+The average RTT between 192.168.0.16 and 108.170.245.113 is: 51.658 ms, the s.d. is: 19.421109 ms
+The average RTT between 192.168.0.16 and 209.85.249.249 is: 108.737667 ms, the s.d. is: 15.742616 ms
+The average RTT between 192.168.0.16 and 8.8.8.8 is: 21.911 ms, the s.d. is: 5.114036 ms
+--------------------------------------------------------------------------------
+Group 2 trace 3 (Windows)
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.0.16
+The IP address of the ultimate destionation node: 8.8.8.8
+The IP addresses of the intermediate nodes: 
+	 router 1: 192.168.0.1
+	 router 2: 24.108.0.1
+	 router 3: 64.59.161.197
+	 router 4: 66.163.72.26
+	 router 5: 66.163.68.18
+	 router 6: 72.14.221.102
+	 router 7: 108.170.245.113
+	 router 8: 209.85.249.249
+
+The values in protocol field of IP headers: 
+	1: ICMP
+
+The average RTT between 192.168.0.16 and 192.168.0.1 is: 7.854 ms, the s.d. is: 4.936731 ms
+The average RTT between 192.168.0.16 and 24.108.0.1 is: 11.835333 ms, the s.d. is: 1.275612 ms
+The average RTT between 192.168.0.16 and 64.59.161.197 is: 22.579333 ms, the s.d. is: 3.316973 ms
+The average RTT between 192.168.0.16 and 66.163.72.26 is: 19.460333 ms, the s.d. is: 2.689211 ms
+The average RTT between 192.168.0.16 and 66.163.68.18 is: 20.321333 ms, the s.d. is: 1.551795 ms
+The average RTT between 192.168.0.16 and 72.14.221.102 is: 21.849667 ms, the s.d. is: 2.091285 ms
+The average RTT between 192.168.0.16 and 108.170.245.113 is: 22.763333 ms, the s.d. is: 3.78618 ms
+The average RTT between 192.168.0.16 and 209.85.249.249 is: 20.592 ms, the s.d. is: 1.939469 ms
+The average RTT between 192.168.0.16 and 8.8.8.8 is: 23.14 ms, the s.d. is: 4.411134 ms
+--------------------------------------------------------------------------------
+Group 2 trace 4 (Windows)
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.0.16
+The IP address of the ultimate destionation node: 8.8.8.8
+The IP addresses of the intermediate nodes: 
+	 router 1: 192.168.0.1
+	 router 2: 24.108.0.1
+	 router 3: 64.59.161.197
+	 router 4: 66.163.72.26
+	 router 5: 66.163.68.18
+	 router 6: 72.14.221.102
+	 router 7: 108.170.245.113
+	 router 8: 209.85.249.249
+
+The values in protocol field of IP headers: 
+	1: ICMP
+
+The average RTT between 192.168.0.16 and 192.168.0.1 is: 3.415333 ms, the s.d. is: 2.383547 ms
+The average RTT between 192.168.0.16 and 24.108.0.1 is: 13.245 ms, the s.d. is: 2.118899 ms
+The average RTT between 192.168.0.16 and 64.59.161.197 is: 21.672333 ms, the s.d. is: 1.807512 ms
+The average RTT between 192.168.0.16 and 66.163.72.26 is: 19.754667 ms, the s.d. is: 5.003532 ms
+The average RTT between 192.168.0.16 and 66.163.68.18 is: 35.771333 ms, the s.d. is: 8.193731 ms
+The average RTT between 192.168.0.16 and 72.14.221.102 is: 22.674667 ms, the s.d. is: 3.854461 ms
+The average RTT between 192.168.0.16 and 108.170.245.113 is: 18.337333 ms, the s.d. is: 1.040308 ms
+The average RTT between 192.168.0.16 and 209.85.249.249 is: 24.574333 ms, the s.d. is: 4.18498 ms
+The average RTT between 192.168.0.16 and 8.8.8.8 is: 19.942667 ms, the s.d. is: 3.158243 ms
+--------------------------------------------------------------------------------
+Group 2 trace 5 (Windows)
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.0.16
+The IP address of the ultimate destionation node: 8.8.8.8
+The IP addresses of the intermediate nodes: 
+	 router 1: 192.168.0.1
+	 router 2: 24.108.0.1
+	 router 3: 64.59.161.197
+	 router 4: 66.163.72.26
+	 router 5: 66.163.68.18
+	 router 6: 72.14.221.102
+	 router 7: 108.170.245.113
+	 router 8: 209.85.249.249
+
+The values in protocol field of IP headers: 
+	1: ICMP
+
+The average RTT between 192.168.0.16 and 192.168.0.1 is: 1.745667 ms, the s.d. is: 0.064381 ms
+The average RTT between 192.168.0.16 and 24.108.0.1 is: 16.153667 ms, the s.d. is: 3.359643 ms
+The average RTT between 192.168.0.16 and 64.59.161.197 is: 21.601667 ms, the s.d. is: 5.300335 ms
+The average RTT between 192.168.0.16 and 66.163.72.26 is: 18.558333 ms, the s.d. is: 1.154074 ms
+The average RTT between 192.168.0.16 and 66.163.68.18 is: 20.717 ms, the s.d. is: 4.157013 ms
+The average RTT between 192.168.0.16 and 72.14.221.102 is: 43.472 ms, the s.d. is: 34.584404 ms
+The average RTT between 192.168.0.16 and 108.170.245.113 is: 26.921333 ms, the s.d. is: 8.141096 ms
+The average RTT between 192.168.0.16 and 209.85.249.249 is: 25.623333 ms, the s.d. is: 4.122916 ms
+The average RTT between 192.168.0.16 and 8.8.8.8 is: 21.442 ms, the s.d. is: 3.226 ms
+--------------------------------------------------------------------------------
+Fragmented trace (Linux)
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.0.108
+The IP address of the ultimate destionation node: 4.2.2.2
+The IP addresses of the intermediate nodes: 
+	 router 1: 142.104.69.243
+	 router 2: 142.104.68.1
+	 router 3: 192.168.9.5
+	 router 4: 192.168.10.1
+	 router 5: 142.104.252.246
+	 router 6: 142.104.250.37
+	 router 7: 207.23.241.221
+	 router 8: 67.69.244.53
+	 router 9: 64.230.122.248
+	 router 10: 64.230.77.230
+	 router 11: 64.230.77.228
+	 router 12: 64.230.79.98
+	 router 13: 64.230.125.233
+	 router 14: 64.230.125.231
+	 router 15: 4.71.152.53
+	 router 16: 4.69.152.15
+
+The values in protocol field of IP headers: 
+	1: ICMP
+	17: UDP
+
+The number of fragments created from the original datagram with id 21908 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21909 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21910 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21911 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21912 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21913 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21914 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21915 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21916 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21917 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21918 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21919 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21920 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21921 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21922 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21923 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21924 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21927 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21928 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21929 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21930 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21931 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21932 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21933 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21934 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21935 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21938 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21939 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21940 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21941 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21942 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21943 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21944 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21945 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21946 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21948 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21949 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21950 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21951 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21953 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21954 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21955 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21956 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21957 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21958 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21959 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21961 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21962 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21963 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21966 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21969 is: 2
+The offset of the last fragment is: 1480
+
+The number of fragments created from the original datagram with id 21970 is: 2
+The offset of the last fragment is: 1480
+
+The average RTT between 192.168.0.108 and 142.104.69.243 is: 9.443 ms, the s.d. is: 5.108042 ms
+The average RTT between 192.168.0.108 and 142.104.68.1 is: 17.607667 ms, the s.d. is: 0.214641 ms
+The average RTT between 192.168.0.108 and 192.168.9.5 is: 18.388333 ms, the s.d. is: 0.202916 ms
+The average RTT between 192.168.0.108 and 192.168.10.1 is: 19.873 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.0.108 and 142.104.252.246 is: 12.2005 ms, the s.d. is: 0.1595 ms
+The average RTT between 192.168.0.108 and 142.104.250.37 is: 15.176 ms, the s.d. is: 0.036249 ms
+The average RTT between 192.168.0.108 and 207.23.241.221 is: 55.426333 ms, the s.d. is: 4.616736 ms
+The average RTT between 192.168.0.108 and 67.69.244.53 is: 11.322667 ms, the s.d. is: 1.141576 ms
+The average RTT between 192.168.0.108 and 64.230.122.248 is: 13.880667 ms, the s.d. is: 0.391352 ms
+The average RTT between 192.168.0.108 and 64.230.77.230 is: 14.963 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.0.108 and 64.230.77.228 is: 15.491 ms, the s.d. is: 1.545 ms
+The average RTT between 192.168.0.108 and 64.230.79.98 is: 15.389333 ms, the s.d. is: 0.951789 ms
+The average RTT between 192.168.0.108 and 64.230.125.233 is: 18.734 ms, the s.d. is: 0.0 ms
+The average RTT between 192.168.0.108 and 64.230.125.231 is: 19.0775 ms, the s.d. is: 0.0645 ms
+The average RTT between 192.168.0.108 and 4.71.152.53 is: 127.613667 ms, the s.d. is: 0.263351 ms
+The average RTT between 192.168.0.108 and 4.69.152.15 is: 30.660667 ms, the s.d. is: 0.962676 ms
+The average RTT between 192.168.0.108 and 4.2.2.2 is: 29.0665 ms, the s.d. is: 1.13293 ms
+--------------------------------------------------------------------------------
+Long windows tracefile 1
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.0.17
+The IP address of the ultimate destionation node: 8.8.8.8
+The IP addresses of the intermediate nodes: 
+	 router 1: 142.104.69.243
+	 router 2: 142.104.68.1
+	 router 3: 192.168.9.5
+	 router 4: 192.168.10.1
+	 router 5: 192.168.8.6
+	 router 6: 142.104.252.37
+	 router 7: 142.104.252.246
+	 router 8: 207.23.244.242
+	 router 9: 206.12.3.17
+	 router 10: 199.212.24.64
+	 router 11: 206.81.80.17
+	 router 12: 74.125.37.91
+	 router 13: 209.85.250.59
+
+The values in protocol field of IP headers: 
+	1: ICMP
+	17: UDP
+
+The average RTT between 192.168.0.17 and 142.104.69.243 is: 1.078667 ms, the s.d. is: 0.053269 ms
+The average RTT between 192.168.0.17 and 142.104.68.1 is: 1.487667 ms, the s.d. is: 0.111691 ms
+The average RTT between 192.168.0.17 and 192.168.9.5 is: 1.396333 ms, the s.d. is: 0.089235 ms
+The average RTT between 192.168.0.17 and 192.168.10.1 is: 1.433333 ms, the s.d. is: 0.053024 ms
+The average RTT between 192.168.0.17 and 192.168.8.6 is: 1.685667 ms, the s.d. is: 0.101543 ms
+The average RTT between 192.168.0.17 and 142.104.252.37 is: 1.61 ms, the s.d. is: 0.129941 ms
+The average RTT between 192.168.0.17 and 142.104.252.246 is: 1.972333 ms, the s.d. is: 0.118565 ms
+The average RTT between 192.168.0.17 and 207.23.244.242 is: 2.050667 ms, the s.d. is: 0.089407 ms
+The average RTT between 192.168.0.17 and 206.12.3.17 is: 5.216 ms, the s.d. is: 2.00452 ms
+The average RTT between 192.168.0.17 and 199.212.24.64 is: 3.837 ms, the s.d. is: 0.057102 ms
+The average RTT between 192.168.0.17 and 206.81.80.17 is: 7.333333 ms, the s.d. is: 0.099587 ms
+The average RTT between 192.168.0.17 and 74.125.37.91 is: 7.604667 ms, the s.d. is: 0.135534 ms
+The average RTT between 192.168.0.17 and 209.85.250.59 is: 7.540333 ms, the s.d. is: 0.118227 ms
+The average RTT between 192.168.0.17 and 8.8.8.8 is: 7.344 ms, the s.d. is: 0.055881 ms
+--------------------------------------------------------------------------------
+Long windows tracefile 2
+--------------------------------------------------------------------------------
+The IP address of the source node: 192.168.0.17
+The IP address of the ultimate destionation node: 4.2.2.2
+The IP addresses of the intermediate nodes: 
+	 router 1: 142.104.69.243
+	 router 2: 142.104.68.1
+	 router 3: 192.168.9.5
+	 router 4: 192.168.10.1
+	 router 5: 192.168.8.6
+	 router 6: 142.104.252.37
+	 router 7: 142.104.252.246
+	 router 8: 142.104.250.37
+	 router 9: 207.23.241.221
+	 router 10: 67.69.244.53
+	 router 11: 64.230.122.248
+	 router 12: 64.230.77.230
+	 router 13: 64.230.79.98
+	 router 14: 64.230.125.233
+	 router 15: 4.71.152.41
+	 router 16: 4.69.152.15
+
+The values in protocol field of IP headers: 
+	1: ICMP
+	17: UDP
+
+The average RTT between 192.168.0.17 and 142.104.69.243 is: 1.049333 ms, the s.d. is: 0.010371 ms
+The average RTT between 192.168.0.17 and 142.104.68.1 is: 1.340333 ms, the s.d. is: 0.031753 ms
+The average RTT between 192.168.0.17 and 192.168.9.5 is: 1.281 ms, the s.d. is: 0.005715 ms
+The average RTT between 192.168.0.17 and 192.168.10.1 is: 1.503667 ms, the s.d. is: 0.078851 ms
+The average RTT between 192.168.0.17 and 192.168.8.6 is: 1.549 ms, the s.d. is: 0.078668 ms
+The average RTT between 192.168.0.17 and 142.104.252.37 is: 1.504333 ms, the s.d. is: 0.03591 ms
+The average RTT between 192.168.0.17 and 142.104.252.246 is: 1.944333 ms, the s.d. is: 0.081201 ms
+The average RTT between 192.168.0.17 and 142.104.250.37 is: 3.745667 ms, the s.d. is: 1.797775 ms
+The average RTT between 192.168.0.17 and 207.23.241.221 is: 2.772667 ms, the s.d. is: 0.341005 ms
+The average RTT between 192.168.0.17 and 67.69.244.53 is: 11.993667 ms, the s.d. is: 7.230139 ms
+The average RTT between 192.168.0.17 and 64.230.122.248 is: 7.494 ms, the s.d. is: 0.14834 ms
+The average RTT between 192.168.0.17 and 64.230.77.230 is: 10.421333 ms, the s.d. is: 0.704637 ms
+The average RTT between 192.168.0.17 and 64.230.79.98 is: 13.188 ms, the s.d. is: 7.021683 ms
+The average RTT between 192.168.0.17 and 64.230.125.233 is: 13.471333 ms, the s.d. is: 4.84721 ms
+The average RTT between 192.168.0.17 and 4.71.152.41 is: 38.410333 ms, the s.d. is: 43.467787 ms
+The average RTT between 192.168.0.17 and 4.69.152.15 is: 24.878333 ms, the s.d. is: 0.820018 ms
+The average RTT between 192.168.0.17 and 4.2.2.2 is: 24.221333 ms, the s.d. is: 0.077599 ms
